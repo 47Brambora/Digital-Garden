@@ -22,3 +22,6 @@ Hlavními cíly mám:
 ## Struktura
 
 Každá technologie kterou použiji bude mýt vlastní složku. A každá kytka bude mýt vlastní soubor.
+
+## Přispívání
+Chceš zasadit vlastní digitální kytku nebo se postarat o nějakou? Podívej se na pravidla v [CONTRIBUTING.md](CONTRIBUTING.md).
