@@ -37,13 +37,52 @@ Vymysli pro svojí kytku jméno. Pokud již existuje tvé kytce podobná. Může
 
 ## 5. Udržuj pořádek
 
-Vkládej kytky do správné složky.  
-Vytvoř si před přidáváním nebo úpravou kytky novou větev.  
-Pokud přidáváš něco co tu ještě není, tak vytvoř pro to novou složku.  
-Pokud nevíš, nebo si nejsi jistý kam kytku zařadit. nech ji ve výchozí složce a jenom to napiš do zprávy v pull requestu.  
+* Vkládej kytky do správné složky podle technologie
+* Pokud si nejsi jistý, nech ji ve výchozí složce a napiš to do PR
+* Nové typy kytek → vytvoř novou složku
 
 
-## 6. Úprava cizích květin
+## 6. Postup práce
+
+### 1. Vytvoř novou větev
+
+Každá změna má mít vlastní větev:
+`<akce>/<technologie>-<kytka>`
+Např.:
+`git checkout -b planting/css-tulip-yellow`
+
+### 2. Přidej kytku
+
+Ulož ji do správné složky.
+
+### 3. Podepiš se
+
+Přidej autora na začátek souboru.
+
+### 4. Udělej screenshot
+
+Vytvoř obrázek (ideálně .png) a vlož ho do:
+`gallery/images/`
+
+### 5. Aktualizuj galerii
+
+Do `gallery/GALLERY.md` přidej:
+
+* obrázek
+* název
+* použitou technologii
+
+### 6. Otevři pull request
+
+Stručně popiš:
+
+* co přidáváš
+* proč (pokud jde o úpravu)
+* jak to funguje
+* případně označ autora původní kytky
+
+
+## 7. Úprava cizích květin
 
 Chceš upravit kytku, kterou vytvořil někdo jiný?  
 
@@ -57,16 +96,18 @@ Díky tomu prosím, aby si původního autora označil v zprávě v pull request
 Pokud autor **nesouhlasí** nebo není k zastižení, můžeš vytvořit nový poddruh dané květiny.  
 
 
-## 7. AI  
+## 8. AI  
 
 Chápu, že občas potřebujete pomoci, ale zkuste tvořit sami a bez pomoci umělé inteligence ať v tom je lidská duše a srdce.  
 Bránit v tom nebudu a ani nebudu užívat nějaký software na zjišťování.  
 
 
-## 8. Pull requesty
-V pull requestu stručně popiš:  
-- co přidáváš nebo měníš  
-- proč pokud je to změna  
-- jak to funguje  
-- zda zasahuješ do existující struktury  
-- označ Autora pokud předěláváš něčí květinu  
+## 9. Pull requesty
+
+V každém PR uveď:
+
+ - co přidáváš nebo měníš
+ - proč (pokud jde o změnu)
+ - jak to funguje
+ - jestli zasahuješ do existující struktury
+ - označ autora, pokud upravuješ jeho kytku
