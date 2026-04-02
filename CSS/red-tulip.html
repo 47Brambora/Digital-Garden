@@ -7,6 +7,13 @@
   <title>Red Tulip</title>
 
   <style>
+    :root {
+      --sky: #87CEEB;
+      --flower: #E63946;
+      --ground: #34A031;
+      --stem: #2E7D32;
+    }
+
     body {
       padding: 0;
       margin: 0;
@@ -16,12 +23,12 @@
     }
 
     .sky {
-      background-color: #87CEEB;
+      background-color: var(--sky);
       height: 350px;
     }
 
     .ground {
-      background-color: #34a031;
+      background-color: var(--ground);
       height: 150px;
     }
 
@@ -35,7 +42,7 @@
       position: absolute;
       width: 70px;
       height: 80px;
-      background-color: #E63946;
+      background-color: var(--flower);
 
       border-radius: 0 0 50% 50%;
     }
@@ -50,7 +57,7 @@
       height: 0;
       left: 17.5px;
     
-      border-bottom: 35px solid #E63946;
+      border-bottom: 35px solid var(--flower);
       border-left: 17.5px solid transparent;
       border-right: 17.5px solid transparent;
     }
@@ -59,25 +66,25 @@
     .triangle.right {
       height: 0;
       width: 0;
-      background-color: #E63946;
+      background-color: var(--flower);
     
-      border-bottom: solid 35px #E63946;
+      border-bottom: solid 35px var(--flower);
     }
 
     .triangle.left {
       left: 0;
-      border-bottom: solid 35px #E63946;
-      border-right: solid 17.5px #87CEEB;
+      border-bottom: solid 35px var(--flower);
+      border-right: solid 17.5px var(--sky);
     }
 
     .triangle.right {
       left: 52.5px;
-      border-bottom: 35px solid #E63946;
-      border-left: 17.5px solid #87CEEB;
+      border-bottom: 35px solid var(--flower);
+      border-left: 17.5px solid var(--sky);
     }
 
     .stem{
-      background-color: #2E7D32;
+      background-color: var(--stem);
       height: 180px;
       width: 5px;
       position: absolute;
@@ -86,7 +93,7 @@
     }
 
     .leaf.left {
-      background-color: #2E7D32;
+      background-color: var(--stem);
       height: 100px;
       width: 37.5px;
 
@@ -97,7 +104,7 @@
     }
 
     .leaf.right {
-      background-color: #2E7D32;
+      background-color: var(--stem);
       height: 100px;
       width: 37.5px;
 
