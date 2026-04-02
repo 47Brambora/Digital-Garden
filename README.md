@@ -1,11 +1,11 @@
-# Digital garden
+# Digital Garden
 
 Malá digitální zahrada plná kytek.
 
 
 ## O projektu
 
-Sbírka jednoduchých i kreativních "květin" vytvořených pomocí různých technologii - Python Turtle, CSS, JavaScript, SVG a dalších.
+Sbírka jednoduchých i kreativních "květin" vytvořených pomocí různých technologií – Python Turtle, CSS, JavaScript, SVG a dalších.
 
 
 ## Galerie
@@ -15,18 +15,18 @@ Prohlédněte si všechny digitální květiny v [GALLERY.md](./gallery/GALLERY.
 
 ## Cíl
 
-Hlavními cíly mám:
- - bavit se tvořením
- - učit se
- - obdivovat
- - rozvíjet se po kreativní stránce
- - experimentovat s různými technologiemi
- - spojit lidi nad krásou květin
+Hlavními cíli jsou:
+- bavit se tvořením
+- učit se nové věci
+- obdivovat digitální umění
+- rozvíjet se po kreativní stránce
+- experimentovat s různými technologiemi
+- spojit lidi nad krásou květin
 
 
 ## Struktura
 
-Každá technologie kterou použiji bude mýt vlastní složku. A každá kytka bude mýt vlastní soubor.
+Každá technologie, kterou použiji, bude mít vlastní složku. Každá kytka bude mít vlastní soubor.
 
 
 ## Přispívání
