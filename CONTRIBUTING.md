@@ -11,7 +11,7 @@ Pokud už v zahradě existuje podobná kytka, zkus ji pojmout jinak nebo přidat
 Příklad:  
 Tulipán (existuje) >> Tulipán žlutý (změna barvy)  
 
-Bylo by fajn, pokud ěníš něco na staré kytce, udržovat nějakou "rodinu" (poddruhy, varianty).  
+Bylo by fajn, pokud měníš něco na staré kytce, udržovat nějakou "rodinu" (poddruhy, varianty).  
 
 
 ## 2. Nepoužívej kód, který vytvořil někdo jiný  
@@ -32,7 +32,7 @@ E-mail je dobrovolný, ale hodí se - hlavně kvůli úpravám cizích kytek.
 ## 4. Pojmenuj ji
 
 Není nic horšího než když je něco nepojmenované.  
-Vymyslí pro svojí kytku jméno. Pokud již existuje tvé kytce podobná. Můžeš vymyslet poddruh.  
+Vymysli pro svojí kytku jméno. Pokud již existuje tvé kytce podobná. Můžeš vymyslet poddruh.  
 
 
 ## 5. Udržuj pořádek
@@ -40,7 +40,7 @@ Vymyslí pro svojí kytku jméno. Pokud již existuje tvé kytce podobná. Můž
 Vkládej kytky do správné složky.  
 Vytvoř si před přidáváním nebo úpravou kytky novou větev.  
 Pokud přidáváš něco co tu ještě není, tak vytvoř pro to novou složku.  
-Pokud nevíš, nebo si nejsi jistý kam kytku zařadit. nech jí ve výchozí složce a jenom to napiš do zprávy v pull requestu.  
+Pokud nevíš, nebo si nejsi jistý kam kytku zařadit. nech ji ve výchozí složce a jenom to napiš do zprávy v pull requestu.  
 
 
 ## 6. Úprava cizích květin
