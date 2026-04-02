@@ -1,45 +1,45 @@
 # Pravidla přispívání
 
-Předem ti děkuji, že chceš rozšířit naši krásnou zahradu o nové kousky, nebo se postarat o ty starší.  
+Díky, že chceš rozšířit naši krásnou zahradu o nové kousky, nebo se postarat o ty starší.  
 Aby byla práce v zahradě příjemná pro všechny, drž se prosím následujících pravidel.
 
 
 ## 1. Žádné duplikáty
 
-Pokud už v zahradě existuje podobná kytka, zkus ji pojmout jinak nebo přidat nový nápad do ní.  
+Pokud už v zahradě existuje podobná kytka, zkus ji rozšířit nebo pojmout jinak.
 
-Příklad:  
-Tulipán (existuje) >> Tulipán žlutý (změna barvy)  
+**Příklad:**
+Tulipán → Tulipán žlutý
 
-Bylo by fajn, pokud měníš něco na staré kytce, udržovat nějakou "rodinu" (poddruhy, varianty).  
+Pokud upravuješ existující kytku, snaž se zachovat její „rodinu“ (varianty, poddruhy).
 
 
-## 2. Nepoužívej kód, který vytvořil někdo jiný  
+## 2. Piš vlastní kód
 
-Přidávej jenom kód, který jsi vytvořil sám.  
-Inspirace je v pořádku - kopírování ne.  
+Přidávej pouze kód, kterému rozumíš a který jsi vytvořil sám.
+Inspirace je v pořádku — kopírování ne.
 
 
 ## 3. Podepiš se
 
-Na začátek souboru přidej komentář, pokud to jde, s tvým jménem a e-mailem:  
+Na začátek souboru přidej komentář:
 
-`# Author: 47Brambora (47Brambora@gmail.com)`  
+`# Author: TvojeJméno (email@example.com)`
 
-E-mail je dobrovolný, ale hodí se - hlavně kvůli úpravám cizích kytek.  
+E-mail je dobrovolný, ale hodí se (např. pro domluvu úprav).
 
 
-## 4. Pojmenuj ji
+## 4. Pojmenuj kytku
 
-Není nic horšího než když je něco nepojmenované.  
-Vymysli pro svojí kytku jméno. Pokud již existuje tvé kytce podobná. Můžeš vymyslet poddruh.  
+Každá kytka by měla mít své jméno.
+Pokud už existuje podobná, vytvoř poddruh nebo variantu.
 
 
 ## 5. Udržuj pořádek
 
-* Vkládej kytky do správné složky podle technologie
-* Pokud si nejsi jistý, nech ji ve výchozí složce a napiš to do PR
-* Nové typy kytek → vytvoř novou složku
+ - Vkládej kytky do správné složky podle technologie
+ - Pokud si nejsi jistý, nech ji ve výchozí složce a napiš to do PR
+ - Nové typy kytek → vytvoř novou složku
 
 
 ## 6. Postup práce
@@ -68,38 +68,43 @@ Vytvoř obrázek (ideálně .png) a vlož ho do:
 
 Do `gallery/GALLERY.md` přidej:
 
-* obrázek
-* název
-* použitou technologii
+ - obrázek
+ - název
+ - použitou technologii
 
 ### 6. Otevři pull request
 
 Stručně popiš:
 
-* co přidáváš
-* proč (pokud jde o úpravu)
-* jak to funguje
-* případně označ autora původní kytky
+ - co přidáváš
+ - proč (pokud jde o úpravu)
+ - jak to funguje
+ - případně označ autora původní kytky
 
 
 ## 7. Úprava cizích květin
 
-Chceš upravit kytku, kterou vytvořil někdo jiný?  
+Chceš upravit cizí kytku?
 
- - pokus se kontaktovat autora (pokud uvedl e-mail)  
- - Krátce popiš, co chceš zmenit a proč  
- - pokud autor souhlasí, budeš uveden jako **CO-Author** hned pod ním  
+ - zkus kontaktovat autora
+ - popiš, co chceš změnit a proč
+ - pokud souhlasí, budeš uveden jako **Co-Author**
 
-Taky by se ti nelíbilo, kdyby ti někdo v reálné zahradě ostříhal keř bez tvého povolení.  
-Díky tomu prosím, aby si původního autora označil v zprávě v pull requestu a on ti to potvrdil.  
+Pokud autor:
 
-Pokud autor **nesouhlasí** nebo není k zastižení, můžeš vytvořit nový poddruh dané květiny.  
+ - nesouhlasí
+ - nebo není dostupný
+
+→ vytvoř nový poddruh.
 
 
 ## 8. AI  
 
-Chápu, že občas potřebujete pomoci, ale zkuste tvořit sami a bez pomoci umělé inteligence ať v tom je lidská duše a srdce.  
-Bránit v tom nebudu a ani nebudu užívat nějaký software na zjišťování.  
+Použití AI je povoleno, ale:
+
+ - měl bys rozumět tomu, co přidáváš
+ - snaž se tvořit co nejvíc vlastní práci
+ - AI užívej jen jako výpomoc
 
 
 ## 9. Pull requesty
@@ -111,3 +116,5 @@ V každém PR uveď:
  - jak to funguje
  - jestli zasahuješ do existující struktury
  - označ autora, pokud upravuješ jeho kytku
+
+A teď už nezbývá nic jiného než nechat zahradu růst
