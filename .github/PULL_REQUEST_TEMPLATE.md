@@ -14,10 +14,10 @@ Krátké vysvětlení, jak tvoje kytka funguje.
 
 (Označ co platí)
 
-* [ ] Nová kytka
-* [ ] Úprava existující kytky
-* [ ] Oprava chyby
-* [ ] Jiná změna
+* [ ] Nová kytka (`plant:`)
+* [ ] Úprava existující kytky (`grow:`)
+* [ ] Oprava chyby (`prune:`)
+* [ ] Jiná změna (`structuring:` / `docs:` /  `gallery` / `xxx`)
 
 ## Struktura
 
