@@ -1,34 +1,35 @@
 # Digital Garden
 
-Malá digitální zahrada plná kytek.
+Česká verze: [README.md](./docs/CS/README.md)  
+
+Small digital garden full of flowers.
 
 
-## O projektu
+## About project
 
-Sbírka jednoduchých i kreativních "květin" vytvořených pomocí různých technologií – Python Turtle, CSS, JavaScript, SVG a dalších.
-
-
-## Galerie
-
-Prohlédněte si všechny digitální květiny v [GALLERY.md](./gallery/GALLERY.md).
+A collection of simple and creative "flowers" created using various technologies—Python Turtle, CSS, JavaScript, SVG, and others.
 
 
-## Cíl
+## Gallery
 
-Hlavními cíli jsou:
-- bavit se tvořením
-- učit se nové věci
-- obdivovat digitální umění
-- rozvíjet se po kreativní stránce
-- experimentovat s různými technologiemi
-- spojit lidi nad krásou květin
+Check out all the digital flowers at [GALLERY.md](./gallery/GALLERY.md).
 
 
-## Struktura
+## Goal
 
-Každá technologie, kterou použiji, bude mít vlastní složku. Každá kytka bude mít vlastní soubor.
+The main goals are:
+ - to have fun creating
+ - to learn new things
+ - to appreciate digital art
+ - to develop creatively
+ - to experiment with various technologies
+ - to bring people together through the beauty of flowers
+
+## Structure
+
+Each technology I use will have its own folder. Each plant will have its own file.
 
 
-## Přispívání
+## Contribution 
 
-Chceš zasadit vlastní digitální kytku nebo se postarat o nějakou? Podívej se na pravidla v [CONTRIBUTING.md](CONTRIBUTING.md).
+Want to plant your own digital flower or take care of one? Check out the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
