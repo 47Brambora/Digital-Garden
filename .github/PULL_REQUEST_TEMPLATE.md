@@ -1,38 +1,45 @@
-## Co přidáváš / měníš
+## What you're adding / changing  
 
-Stručně popiš, co jsi přidal nebo upravil.
+Briefly describe what you're added or modified. 
 
-## Proč
 
-Pokud jde o úpravu, vysvětli proč jsi ji udělal.
+## Why  
 
-## Jak to funguje
+If it's modification, explain why you made it.  
 
-Krátké vysvětlení, jak tvoje kytka funguje.
 
-## Typ změny
+## How it works
 
-(Označ co platí)
+A brief explanation of how your plant works.  
 
-* [ ] Nová kytka (`plant:`)
-* [ ] Úprava existující kytky (`grow:`)
-* [ ] Oprava chyby (`prune:`)
-* [ ] Jiná změna (`structuring:` / `docs:` /  `gallery` / `xxx`)
 
-## Struktura
+## Type of change
 
-* [ ] Kytka je ve správné složce
-* [ ] Pokud ne, vysvětlil jsem proč
+(Check what applies)
 
-## Autorství
+ - [ ] New plant (`planting`)  
+ - [ ] Modification of an existing plant (`growing`)  
+ - [ ] Bux fix (`pruning`)  
+ - [ ] Other change (`structuring` / `documenting` / `gallery` / else)  
 
-* [ ] Kód je můj vlastní nebo mu plně rozumím
-* [ ] Pokud upravuji cizí kytku, označil jsem autora do zprávy
+
+## Structure  
+
+ - [ ] The plant is in the correct folder
+ - [ ] If not, I explained why  
+
+
+## Authorship  
+
+- [ ] The code is my own  
+- [ ] If I'm modifying someone else's plant, I've credited the author in the message  
+
 
 ## Screenshot
 
-(Pokud dává smysl, přidej obrázek kytky)
+(If it makes sense, add an image of the plant)
 
-## Poznámky
 
-Cokoliv dalšího, co chceš dodat.
+## Notes
+
+Anything else you want to add.
