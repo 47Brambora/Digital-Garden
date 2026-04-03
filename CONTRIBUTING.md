@@ -117,4 +117,21 @@ V každém PR uveď:
  - jestli zasahuješ do existující struktury
  - označ autora, pokud upravuješ jeho kytku
 
+
+## 10. Commit zprávy
+
+Pro přehlednou historii používej zahradnické prefixy:
+
+- `plant:` — nová kytka nebo nový soubor  
+- `grow:` — vylepšení existující kytky  
+- `prune:` — úklid, mazání, opravy, refaktor  
+- `gallery:` — přidání nebo úprava obrázků či GALLERY.md  
+- `structure:` — změny ve složkách, přesuny, přidání .gitignore apod.  
+- `docs:` — úpravy dokumentace (README, CONTRIBUTING, šablony)
+
+**Příklad:** `plant: add yellow tulip (CSS)`
+
+
+---
+
 A teď už nezbývá nic jiného než nechat zahradu růst
