@@ -1,152 +1,155 @@
-# Pravidla přispívání
+# Guidelines for Contributing  
 
-Díky, že chceš rozšířit naši krásnou zahradu o nové kousky, nebo se postarat o ty starší.  
-Aby byla práce v zahradě příjemná pro všechny, drž se prosím následujících pravidel.
+Česká verze: [CONTRIBUTING.md](./docs/CS/CONTRIBUTING.md)  
 
-
-## 1. Žádné duplikáty
-
-Pokud už v zahradě existuje podobná kytka, zkus ji rozšířit nebo pojmout jinak.
-
-**Příklad:**
-Tulipán → Tulipán žlutý
-
-Pokud upravuješ existující kytku, snaž se zachovat její „rodinu“ (varianty, poddruhy).
+Thank you for wanting to add new plants to our beautiful garden or take care of the older ones.  
+To ensure that gardening is enjoyable for everyone, please follow these guidelines.
 
 
-## 2. Piš vlastní kód
+## 1. No Duplicates  
 
-Přidávej pouze kód, kterému rozumíš a který jsi vytvořil sám.
-Inspirace je v pořádku — kopírování ne.
+If a similar plan already exist in the garden, try to expand on it or approach it differently.  
 
+**Example:**
+Tulip → Yellow tulip
 
-## 3. Podepiš se
-
-Na začátek souboru přidej komentář:
-
-`# Author: TvojeJméno (email@example.com)`
-
-E-mail je dobrovolný, ale hodí se (např. pro domluvu úprav).
+When editing an existing plant, try to preserve its "family" (varieties, subspecies).
 
 
-## 4. Pojmenuj kytku
+## 2. Write Your Own Code  
 
-Každá kytka by měla mít své jméno.
-Pokud už existuje podobná, vytvoř poddruh nebo variantu.
-
-
-## 5. Udržuj pořádek
-
- - Vkládej kytky do správné složky podle technologie
- - Pokud si nejsi jistý, nech ji ve výchozí složce a napiš to do PR
- - Nové typy kytek → vytvoř novou složku
+Only add code that you understand and that you wrote yourself.  
+Inspiration is fine - copying is not!  
 
 
-## 6. Postup práce
+## 3. Sing Your Code  
 
-### 1. Vytvoř novou větev
+Add the following comment at the beginning of the file.  
 
-Každá změna má mít vlastní větev:
-`<akce>/<technologie>-<kytka>`
-Např.:
-`git checkout -b planting/css-tulip-yellow`
+`#Author: YourName (email@example.com)`  
 
-### 2. Přidej kytku
-
-Ulož ji do správné složky.
-
-### 3. Podepiš se
-
-Přidej autora na začátek souboru.
-
-### 4. Udělej screenshot
-
-Vytvoř obrázek (ideálně .png) a vlož ho do:
-`gallery/images/`
-
-### 5. Aktualizuj galerii
-
-Do `gallery/GALLERY.md` přidej:
-
- - obrázek
- - název
- - použitou technologii
-
-### 6. Otevři pull request
-
-Stručně popiš:
-
- - co přidáváš
- - proč (pokud jde o úpravu)
- - jak to funguje
- - případně označ autora původní kytky
+The email address is optional, but it's useful (e.g., for agreeing on changes).  
 
 
-## 7. Úprava cizích květin
+## 4. Name The Plant  
 
-Chceš upravit cizí kytku?
+Every plant should have a name.  
+If similar one already exist, create a subspecies or variant.  
 
- - zkus kontaktovat autora
- - popiš, co chceš změnit a proč
- - pokud souhlasí, budeš uveden jako **Co-Author**
 
-Pokud autor:
+## 5. Keep Things Organized  
 
- - nesouhlasí
- - nebo není dostupný
+ - Place flowers in the correct folder based on their technology  
+ - If you're not sure, leave it in the root folder and note it in the PR  
+ - New flower types → create a new folder  
 
-→ vytvoř nový poddruh.
+
+## 6. Workflow  
+
+### 1. Create a new branch  
+
+Each change should have its own branch:  
+`<action>/<technology>-<flower>`  
+For example:  
+`git checkout -n planting/css-red-tulip`  
+
+### 2. Add a flower  
+
+Save it to the correct folder.  
+
+### 3. Sing your work  
+
+Add the author to beginning of the file.  
+
+### 4. Take a screenshot  
+
+Create an image (ideally a .png) and place it in `gallery/images/`  
+
+### 5. Update the gallery  
+
+Add the following to `gallery/GALLERY.md`:
+
+ - image  
+ - name  
+ - technology used  
+
+### 7. Open a pull request  
+
+Give a brief description of:
+
+ - what you’re adding
+ - why (if it’s a modification)
+ - how it works
+ - tag the author of the original flower if applicable
+
+
+## 7. Editing Other People's Flowers  
+
+Want to edit someone else's flower?  
+
+ - Try contacting author  
+ - Describe what you want to change and why  
+ - If the agree, you will be listed as a **Co-Author**
+
+If the author:
+
+ - does not agree  
+ - or is unavailable  
+
+→ Create a new subspecies.
 
 
 ## 8. AI  
 
-Použití AI je povoleno, ale:
+The use of AI is permitted, but:  
 
- - měl bys rozumět tomu, co přidáváš
- - snaž se tvořit co nejvíc vlastní práci
- - AI užívej jen jako výpomoc
-
-
-## 9. Pull requesty
-
-V každém PR uveď:
-
- - co přidáváš nebo měníš
- - proč (pokud jde o změnu)
- - jak to funguje
- - jestli zasahuješ do existující struktury
- - označ autora, pokud upravuješ jeho kytku
+ - You should understand what you're adding  
+ - Try to create as much of your own work as possible  
+ - Use AI only as a tool  
 
 
-## 10. Commit zprávy
+## 9. Pull Requests  
 
-Pro přehlednou historii používej zahradnické prefixy:
+In every PR, include:  
 
-- `plant:` — nová kytka nebo nový soubor  
-- `grow:` — vylepšení existující kytky  
-- `prune:` — úklid, mazání, opravy, refaktor  
-- `gallery:` — přidání nebo úprava obrázků či GALLERY.md  
-- `structure:` — změny ve složkách, přesuny, přidání .gitignore apod.  
-- `docs:` — úpravy dokumentace (README, CONTRIBUTING, šablony)
-
-**Příklad:** `plant: add yellow tulip (CSS)`
+ - what you're adding or changing  
+ - why (if it's a change)
+ - how it works  
+ - whether you're modifying the existing structure  
+ - tag the author (if you're editing their code)  
 
 
-## 11. Pojmenování větví
+## 10. Commit Messages  
 
-Každá změna by měla mít vlastní větev. Používáme jednoduchý a jednotný systém pojmenování:
+Use gardening prefixes to keep your history clear and in gardening terms.
 
-`<akce>/<technologie>-<kytka>`
+ - `plant:` — a new plant or a new file  
+ - `grow:` — improvements to an existing plant  
+ - `prune:` — cleanup, deletion, fixes, refactoring
+ - `gallery:` — adding or editing images or GALLERY.md  
+ - `structure:` — changes to directories, moves, adding .gitignore, etc.
+ - `docs:` — editing documentation (README, CONTRIBUTING, ...)  
 
-### Typ akce
-- `planting` — přidání nové kytky  
-- `growing` — vylepšení existující kytky  
-- `pruning` — úklid, mazání, opravy  
-- `structuring` — změny ve složkách, přesuny  
-- `documenting` — úpravy dokumentace  
-- `gallery` — práce s obrázky a GALLERY.md  
+**Example:** `plant: add red-tulip.html (css)`
 
-### Příklady větví
+
+## 11. Branch Naming  
+
+Each change should have its own branch. We use a simple and consistent naming system:
+
+`<action>/<technology>-<plant>`  
+
+### Action Type  
+
+- `planting` — adding a new plant  
+- `growing` — improving an existing plant  
+- `pruning` — cleanup, deletion, fixes  
+- `structuring` — changes to folders, moves  
+- `documenting` — documentation updates  
+- `gallery` — work with images and GALLERY.md  
+
+### Branch Examples
+
 - `planting/css-tulip-yellow`  
 - `growing/python-rose-red`  
 - `pruning/js-daisy-cleanup`  
@@ -157,4 +160,5 @@ Každá změna by měla mít vlastní větev. Používáme jednoduchý a jednotn
 
 ---
 
-A teď už nezbývá nic jiného než nechat zahradu růst
+
+And now all that’s left is to let the garden grow
