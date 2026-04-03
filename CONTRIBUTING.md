@@ -132,6 +132,29 @@ Pro přehlednou historii používej zahradnické prefixy:
 **Příklad:** `plant: add yellow tulip (CSS)`
 
 
+## 11. Pojmenování větví
+
+Každá změna by měla mít vlastní větev. Používáme jednoduchý a jednotný systém pojmenování:
+
+`<akce>/<technologie>-<kytka>`
+
+### Typ akce
+- `planting` — přidání nové kytky  
+- `growing` — vylepšení existující kytky  
+- `pruning` — úklid, mazání, opravy  
+- `structuring` — změny ve složkách, přesuny  
+- `documenting` — úpravy dokumentace  
+- `gallery` — práce s obrázky a GALLERY.md  
+
+### Příklady větví
+- `planting/css-tulip-yellow`  
+- `growing/python-rose-red`  
+- `pruning/js-daisy-cleanup`  
+- `structuring/svg-folder-move`  
+- `documenting/docs-readme-update`  
+- `gallery/images-tulip-add`
+
+
 ---
 
 A teď už nezbývá nic jiného než nechat zahradu růst
