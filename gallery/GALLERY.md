@@ -12,3 +12,9 @@ Technologie: CSS
 [Zdrojový kód](../CSS/red-tulip.html)
 
 ---
+
+## Rotaria
+![Rotaria](./images/rotaria.png)
+Author: 47Brambora
+Technology: Python - Turtle
+[source code](../Python/rotaria.py)
