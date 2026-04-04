@@ -14,7 +14,9 @@ Technology: CSS
 ---
 
 ## Rotaria
-![Rotaria](./images/rotaria.png)
-Author: 47Brambora
-Technology: Python - Turtle
+![Rotaria](./images/rotaria.png)  
+Author: 47Brambora  
+Technology: Python - Turtle  
 [Source code](../Python/rotaria.py)
+
+---  
